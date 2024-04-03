@@ -18,6 +18,11 @@
             a{
                 color: black;
             }
+            a:hover{
+                color: orangered;
+                text-decoration: underline;
+                transition: 0.3s;
+            }
         }
         img{
             width: 30px;
