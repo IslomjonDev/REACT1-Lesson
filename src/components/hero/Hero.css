@@ -1,0 +1,175 @@
+.hero{
+    display: flex;
+    justify-content: space-around;
+    img{
+        height: 400px;
+        max-width: 700px;
+    }
+}
+.hero-back{
+    background-color: #e3e3e3;
+}
+
+
+.hero-left{
+    padding: 100px 20px;
+    button{
+        background-color: black;
+        color: #fff;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: #cfd0d5;
+        color: black;
+        transition: 0.3s;
+    }
+}
+
+.hero-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.products{
+    padding: 100px 0;
+    h1{
+        text-align: center;
+    }
+    ul{
+        display: flex;
+        gap: 60px;
+        justify-content: center;
+        margin-top: 80px;
+        a{
+            color: black;
+        }
+        a:hover{
+            color: rgb(238, 102, 17);
+            transition: 0.2s;
+            text-decoration: underline;
+        }
+    }
+}
+
+.products-back{
+    background-color: #fff;
+    padding: 20px;
+}
+.products-content {
+    display: flex;
+    gap: 80px;
+    background-color: #f4f4f4;
+}
+.products-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+        margin: 0 !important;
+    }
+}
+
+
+.cards{
+    margin-top: 20px;
+}
+.card{
+    background-color: #f4f4f4;
+    padding: 10px ;
+    width: 250px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    text-align: center;
+    p{
+        opacity: 0.6;
+    }
+    button{
+        background-color: black;
+        color: #fff;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 15px;
+        cursor: pointer;
+        display: none;
+    }
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card:hover{
+    p{
+        display: none;
+    }
+    button{
+        display: block;
+        transition: 0.5s;
+    }
+    button:hover{
+        background-color: #f4f4f4;
+        color: black;
+        transition: 0.3s;
+    }
+}
+.explore{
+    h1{
+        text-align: center;
+        margin: 50px 0;
+    }
+
+    
+}
+.explore-cards{
+    display: flex;
+    gap: 20px;
+}
+.explore-card{
+    padding: 10px;
+    background-color: #fff;
+    max-width: 680px;
+    img{
+        width: 100%;
+    }
+    p{
+       text-align: center; 
+    }
+}
+
+
+.support{
+    padding: 100px 0;
+    h1{
+        text-align: center;
+        margin: 50px 0;
+    }
+}
+.sup-card{
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;    
+    img{
+        width:80px;
+        height: 80px;
+    }
+}
+.support-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.sup-card:hover *{
+    color: orangered;
+    transition: 0.3s;
+}

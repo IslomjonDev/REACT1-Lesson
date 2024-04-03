@@ -1,0 +1,44 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px ;
+  }
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navlogo{
+    display: flex;
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        li{
+            a{
+                color: black;
+            }
+        }
+        img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+.navlist ul{
+    display: flex;
+    gap: 30px;
+    a{
+        color: black;
+    }
+    img{
+        cursor: pointer;
+        align-items: center;
+    }
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
